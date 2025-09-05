@@ -186,6 +186,9 @@ SUPPORTED_CONFIGURATIONS = [
     (   0x0426,     VENDOR_TO_FAMILY('Stub', 1),        'max32625_max32690evkit_if',                'max32625_bl',      'MAX32690'                              ),
     (   0x0700,     VENDOR_TO_FAMILY('Stub', 1),        'stm32f103xb_stm32f103rb_if',               'stm32f103xb_bl',   'ST-Nucleo-F103RB'                      ),
     (   0x0720,     VENDOR_TO_FAMILY('Stub', 1),        'stm32f103xb_stm32f401re_if',               'stm32f103xb_bl',   'ST-Nucleo-F401RE'                      ),
+
+    (   0x0720,     VENDOR_TO_FAMILY('Stub', 1),        'stm32f103xb_stm32c071g8_if',               'stm32f103xb_bl',   'ST-TEST-C071G8'                      ),
+    
     (   0x0720,     VENDOR_TO_FAMILY('Stub', 1),        'stm32f103xb_stm32f072rb_if',               'stm32f103xb_bl',   'ST-Nucleo-F072RB'                      ),
     (   0x0735,     VENDOR_TO_FAMILY('Stub', 1),        'stm32f103xb_stm32f334r8_if',               'stm32f103xb_bl',   'ST-Nucleo-F334R8'                      ),
     (   0x0740,     VENDOR_TO_FAMILY('Stub', 1),        'stm32f103xb_stm32f411re_if',               'stm32f103xb_bl',   'ST-Nucleo-F411RE'                      ),

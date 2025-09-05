@@ -582,6 +582,13 @@ projects:
         - *module_if
         - *module_hic_sam3u2c
         - records/board/ublox_evk_nina_b1.yaml
+        
+# 추가한 부분
+    stm32f103xb_stm32c071g8_if:
+        - *module_if
+        - *module_hic_stm32f103xb
+        - records/board/stm32c071g8.yaml
+
     stm32f103xb_stm32f072rb_if:
         - *module_if
         - *module_hic_stm32f103xb
